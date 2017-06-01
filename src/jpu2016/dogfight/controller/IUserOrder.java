@@ -1,5 +1,5 @@
 package jpu2016.dogfight.controller;
 
-public class a {
+public interface IUserOrder {
 
 }
