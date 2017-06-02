@@ -1,4 +1,4 @@
-package jpu2016.gameframe;
+package jpu2016.dogfight.gameframe;
 
 public class GameFrame {
 
