@@ -1,4 +1,4 @@
-package jpu2016.dogfight.view;
+package jpu2016.gameframe;
 
 public enum IGraphicsBuilder {
 
