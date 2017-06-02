@@ -4,7 +4,7 @@ import jpu2016.dogfight.controller.DogfightController;
 import jpu2016.dogfight.model.DogfightModel;
 import jpu2016.dogfight.view.DogfightView;
 
-public class main {
+public class mainDogfight {
 
 	public static void main(String[] args) {
 		final DogfightModel dogfightModel = new DogfightModel();
