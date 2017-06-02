@@ -10,9 +10,7 @@ public class DogfightModel implements IDogfightModel{
 	public IArea getArea(){
 
 	}
-	public void buildArea(final Dimension dimension){
 
-	}
 	@Override
 	public void addMobile(final IMobile mobile){
 
@@ -29,13 +27,14 @@ public class DogfightModel implements IDogfightModel{
 	}
 	@Override
 	public IMobile getMobileByPlayer(final int player){
+		return null;
 
 	}
 	public void setMobilesHavesMove(){
 
 	}
 	@Override
-	public void buildArea(final java.awt.Dimension dimension) {
+	public void buildArea(final Dimension dimension) {
 		// TODO Auto-generated method stub
 
 	}
