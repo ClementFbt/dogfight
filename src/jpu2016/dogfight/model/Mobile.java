@@ -19,6 +19,10 @@ public class Mobile implements IMobile {
 		this.direction = direction;
 	}
 
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+
 	@Override
 	public Point getPosition() {
 		// TODO Auto-generated method stub
@@ -87,6 +91,7 @@ public class Mobile implements IMobile {
 
 	public Mobile(final Direction direction, final Position position, final Dimension dimension, final int speed,
 			final String image) {
+		this.setSpeed(speed);
 
 	}
 

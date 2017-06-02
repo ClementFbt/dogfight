@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.Observable;
 
 public class DogfightModel extends Observable implements IDogfightModel {
-	public DogfightModel() {
+	private final ArrayList<IMobile> mobiles;
 
+	public DogfightModel() {
+		this.mobiles = new ArrayList<>();
 	}
 
 	@Override
