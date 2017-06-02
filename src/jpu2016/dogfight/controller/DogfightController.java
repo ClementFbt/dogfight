@@ -39,7 +39,7 @@ public class DogfightController implements IOrderPerformer {
 				final Direction direction;
 				switch (userOrder.getOrder()) {
 				case DOWN:
-					// plane.setDi);
+					direction = Direction.DOWN;
 					;
 					break;
 				case UP:
