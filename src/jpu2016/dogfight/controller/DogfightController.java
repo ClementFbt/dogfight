@@ -33,7 +33,7 @@ public class DogfightController implements IOrderPerformer {
 
 	}
 
-	public void setiViewSystem(IViewSystem iViewSystem) {
+	public void setViewSystem(IViewSystem iViewSystem) {
 		this.iViewSystem = iViewSystem;
 	}
 
