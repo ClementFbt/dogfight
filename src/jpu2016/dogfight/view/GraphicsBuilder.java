@@ -13,10 +13,10 @@ public class GraphicsBuilder {
 	public void applyModelToGraphic(Graphics graphics,ImageObserver observer){
 
 	}
-	public void buildEmptySky(){
+	private void buildEmptySky(){
 
 	}
-	public void drawwMobile(IMobile mobile,Graphics graphics,ImageObserver observer){
+	private void drawwMobile(IMobile mobile,Graphics graphics,ImageObserver observer){
 
 	}
 }
