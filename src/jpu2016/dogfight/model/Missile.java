@@ -8,8 +8,8 @@ public class Missile extends Mobile{
 	private static String IMAGE = "missile";
 	private final int distanceTraveled = 0;
 
-	public Missile(final Direction direction, final Dimension dimension){
-
+	public Missile(final Direction direction, final Position position){
+		super(direction, position, new Dimension(WIDTH, HEIGHT), SPEED, IMAGE);
 	}
 	public int getWidthWithADirection(final Direction direction){
 		return this.distanceTraveled;
