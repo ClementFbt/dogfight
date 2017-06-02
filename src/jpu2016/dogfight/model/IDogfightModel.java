@@ -11,4 +11,5 @@ public interface IDogfightModel {
 	public ArrayList<IMobile> getMobiles();
 	public IMobile getMobileByPlayer(int player);
 	public void setMobilesHavesMoved();
+	void buildArea(jpu2016.dogfight.model.Dimension dimension);
 }
