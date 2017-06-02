@@ -28,8 +28,9 @@ public class DogfightController implements IOrderPerformer {
 
 	@Override
 	public void orderPerform(UserOrder userOrder) {
-		switch (userOrder.order) {
+		switch (userOrder.getOrder()) {
 		case DOWN:
+
 			break;
 		case UP:
 			break;
