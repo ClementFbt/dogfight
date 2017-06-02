@@ -1,4 +1,4 @@
-package jpu2016.dogfight.Model;
+package jpu2016.dogfight.model;
 
 import java.awt.Dimension;
 

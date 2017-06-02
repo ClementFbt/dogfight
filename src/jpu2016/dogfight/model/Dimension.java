@@ -1,4 +1,4 @@
-package jpu2016.dogfight.Model;
+package jpu2016.dogfight.model;
 
 public class Dimension {
 	private int width;
