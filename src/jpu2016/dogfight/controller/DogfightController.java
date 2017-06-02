@@ -9,11 +9,22 @@ public class DogfightController implements IOrderPerformer {
 	private int						player;
 	private final IDogfightModel	idogfightModel;
 	private IViewSystem				iViewSystem;
+	private Missile					missile;
+
+	public void setMissile(Missile missile) {
+		this.missile = missile;
+	}
 
 	public DogfightController(final IDogfightModel idogfightModel) {
 		this.idogfightModel = idogfightModel;
+		this.missile = new Missile;
 	}
 
+	public Missile getMissile() {
+		return this.missile;
+	}
+
+	@Override
 	public void orderPerform(UserOrder userOrder) {
 
 	}
