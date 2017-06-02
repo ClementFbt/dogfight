@@ -8,6 +8,7 @@ public class DogfightModel implements IDogfightModel{
 	}
 	@Override
 	public IArea getArea(){
+		return null;
 
 	}
 
