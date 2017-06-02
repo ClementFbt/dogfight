@@ -10,7 +10,7 @@ public class Plane extends Mobile{
 	}
 	public Plane(final Direction direction, final Position position, final Dimension dimension, final int speed, final String image) {
 		super(direction, position, dimension, speed, image);
-		// TODO Auto-generated constructor stub
+
 	}
 	@Override
 	public boolean isPlayer(final int player){
