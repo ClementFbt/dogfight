@@ -5,7 +5,6 @@ import com.sun.javafx.scene.traversal.Direction;
 import jpu2016.dogfight.model.IDogfightModel;
 import jpu2016.dogfight.model.IMobile;
 import jpu2016.dogfight.model.Missile;
-import jpu2016.dogfight.model.Mobile;
 import jpu2016.dogfight.model.Plane;
 import jpu2016.dogfight.view.IViewSystem;
 
@@ -15,7 +14,6 @@ public class DogfightController implements IOrderPerformer {
 	private final IDogfightModel	dogfightModel;
 	private IViewSystem				iViewSystem;
 	private Missile					missile;
-	private Mobile					mobile;
 	private Plane					plane;
 
 	public void setMissile(Missile missile) {
@@ -36,24 +34,25 @@ public class DogfightController implements IOrderPerformer {
 		if (userOrder != null) {
 			final IMobile plane = this.dogfightModel.getMobileByPlayer(userOrder.getPlayer());
 			if (plane != null) {
-				final Direction direction;
+				Direction direction;
 				switch (userOrder.getOrder()) {
 				case DOWN:
 					direction = Direction.DOWN;
-					;
 					break;
 				case UP:
+					direction = Direction.UP;
 					break;
 				case RIGHT:
+					direction = Direction.RIGHT;
 					break;
 				case LEFT:
+					direction = Direction.LEFT;
 					break;
 				case SHOOT:
 					this.launchMissile(userOrder.getPlayer());
 					break;
-				case NOP:
-					break;
 				default:
+					direction = null;
 					break;
 				}
 			}
