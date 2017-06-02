@@ -1,4 +1,4 @@
-package Model;
+package jpu2016.dogfight.Model;
 
 import java.awt.Dimension;
 import java.util.ArrayList;
