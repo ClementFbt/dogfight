@@ -1,8 +1,11 @@
 package jpu2016.dogfight.model;
 
-public class Mobile implements IMobile{
-	public int speed;
-	private Direction direction;
+import java.awt.Point;
+
+public class Mobile implements IMobile {
+	public int			speed;
+	private Direction	direction;
+
 	@Override
 	public Direction getDirection() {
 		// TODO Auto-generated method stub
@@ -80,30 +83,39 @@ public class Mobile implements IMobile{
 		// TODO Auto-generated method stub
 		return false;
 	}
-	public Mobile(final Direction direction, final Position position, final Dimension dimension, final int speed, final String image){
+
+	public Mobile(final Direction direction, final Position position, final Dimension dimension, final int speed,
+			final String image) {
 
 	}
-	public Dimension getDimension(){
+
+	public Dimension getDimension() {
 		return null;
 
 	}
-	public void moveUp(){
+
+	public void moveUp() {
 
 	}
-	public void moveDown(){
+
+	public void moveDown() {
 
 	}
-	public void moveRight(){
+
+	public void moveRight() {
 
 	}
-	public void moveLeft(){
+
+	public void moveLeft() {
 
 	}
-	public java.awt.Color getColor(){
+
+	public java.awt.Color getColor() {
 		return null;
 
 	}
-	public IDogfightModel getDogfightModel(){
+
+	public IDogfightModel getDogfightModel() {
 		return null;
 
 	}
