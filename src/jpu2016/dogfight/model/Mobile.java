@@ -1,5 +1,6 @@
 package jpu2016.dogfight.model;
 
+import java.awt.Image;
 import java.awt.Point;
 
 public class Mobile implements IMobile {
@@ -43,7 +44,7 @@ public class Mobile implements IMobile {
 	}
 
 	@Override
-	public jpu2016.dogfight.model.Image getImage() {
+	public Image getImage() {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -67,7 +68,7 @@ public class Mobile implements IMobile {
 	}
 
 	@Override
-	public void setDogfightModel(final DogfifghtModel dogfifghtModel) {
+	public void setDogfightModel(final DogfightModel dogfifghtModel) {
 		// TODO Auto-generated method stub
 
 	}
@@ -119,5 +120,4 @@ public class Mobile implements IMobile {
 		return null;
 
 	}
-
 }

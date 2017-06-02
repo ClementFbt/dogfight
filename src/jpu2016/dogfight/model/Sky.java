@@ -1,5 +1,7 @@
 package jpu2016.dogfight.model;
 
+import java.awt.Image;
+
 public class Sky implements IArea{
 	public Sky(final Dimension dimension){
 

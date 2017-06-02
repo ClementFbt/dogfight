@@ -1,6 +1,7 @@
 package jpu2016.dogfight.controller;
 
 import jpu2016.dogfight.model.IDogfightModel;
+import jpu2016.dogfight.model.Missile;
 import jpu2016.dogfight.view.IViewSystem;
 
 public class DogfightController implements IOrderPerformer {
@@ -17,7 +18,7 @@ public class DogfightController implements IOrderPerformer {
 
 	public DogfightController(final IDogfightModel idogfightModel) {
 		this.idogfightModel = idogfightModel;
-		this.missile = new Missile;
+		this.missile = new Missile(null, null);
 	}
 
 	public Missile getMissile() {
