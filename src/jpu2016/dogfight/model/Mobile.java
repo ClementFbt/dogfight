@@ -1,7 +1,5 @@
 package jpu2016.dogfight.model;
 
-import java.awt.Image;
-
 public class Mobile implements IMobile{
 	public int speed;
 	private Direction direction;
@@ -42,7 +40,7 @@ public class Mobile implements IMobile{
 	}
 
 	@Override
-	public Image getImage() {
+	public jpu2016.dogfight.model.Image getImage() {
 		// TODO Auto-generated method stub
 		return null;
 	}
