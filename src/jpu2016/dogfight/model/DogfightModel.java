@@ -43,6 +43,11 @@ public class DogfightModel implements IDogfightModel{
 		// TODO Auto-generated method stub
 
 	}
+	@Override
+	public void buildArea(final java.awt.Dimension dimension) {
+		// TODO Auto-generated method stub
+
+	}
 
 }
 
