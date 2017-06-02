@@ -1,6 +1,6 @@
 package jpu2016.dogfight.model;
 
-public class Missile {
+public class Missile extends Mobile{
 	private static int SPEED = 4;
 	private static int WIDTH = 30;
 	private static int HEIGHT = 10;
@@ -19,9 +19,11 @@ public class Missile {
 		return this.distanceTraveled;
 
 	}
+	@Override
 	public void move(){
 
 	}
+	@Override
 	public boolean isWeapon(){
 		return false;
 
